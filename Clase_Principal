@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        // Crear una instancia de Animal
+        Animal miAnimal = new Animal("Genérico");
+        miAnimal.hacerSonido();  // Imprime "El animal hace un sonido"
+
+        // Crear una instancia de Perro
+        Perro miPerro = new Perro("Fido");
+        miPerro.hacerSonido();  // Imprime "El perro ladra"
+    }
+}
