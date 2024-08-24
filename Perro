@@ -1,0 +1,12 @@
+class Perro extends Animal {
+    // Constructor
+    public Perro(String nombre) {
+        super(nombre);  // Llama al constructor de la superclase (Animal)
+    }
+
+    // Método sobreescrito
+    @Override
+    public void hacerSonido() {
+        System.out.println("El perro ladra");
+    }
+}
